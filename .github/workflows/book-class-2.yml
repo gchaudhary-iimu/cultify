@@ -1,12 +1,12 @@
 name: Auto Book Cult Class HRX
 
 on:
-  schedule:
+  #schedule:
     # Runs at 16:35 UTC (10:05 PM IST) on Sun, Tue, Fri
     # Sunday  (0) -> Books Thursday
     # Tuesday (2) -> Books Saturday
     # Friday  (5) -> Books Tuesday
-    - cron: '35 16 * * 0,2,5'
+    #- cron: '35 16 * * 0,2,5'
   workflow_dispatch:
 
 jobs:
